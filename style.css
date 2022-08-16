@@ -42,7 +42,7 @@ section{
     margin: auto;
     padding-top: 1rem;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .project, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -286,16 +286,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .project{
     color:#fff;
     background: #051933;
 }
 .services .title::before,
-.teams .title::before{
+.project .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.project .title::after{
     background: #051933;
     content: "Minhas habilidades técnicas";
 }
@@ -411,21 +411,21 @@ section .title::after{
 }
 
 
-/* teams section styling */
-.teams{
+/* project section styling */
+.project{
     background-color: #F5F5F5;
     color: white;
 }
 
-.teams .title{
+.project .title{
     color: #434656;
 }
 
-.teams .title::after{
+.project .title::after{
     content: "Veja os últimos projetos que realizei";
     background-color: #F5F5F5;
 }
-.teams .carousel .card{
+.project .carousel .card{
     background: #434656;
     border-radius: 6px;
     padding: 25px 35px;
@@ -433,25 +433,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.project .carousel .card:hover{
     background: #0568C6;
 }
-.teams .carousel .card .box{
+.project .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.project .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.project .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.project .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: fill;
@@ -460,15 +460,15 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card a{
+.project .carousel .card a{
    color:#83E1E5;
 }
 
-.teams .carousel .card a:hover{
+.project .carousel .card a:hover{
     color: #756FF4;
 }
 
-.teams .carousel .card:hover img{
+.project .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -810,7 +810,7 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
-    #teams > div > h2{
+    #project > div > h2{
         height: 100px;
     }
 }
@@ -848,7 +848,7 @@ footer span a:hover{
     #services > div > h2{
         height: 100px;
     }
-    #teams > div > h2{
+    #project > div > h2{
         height: 150px;
     } 
     .wrapper a.button{
